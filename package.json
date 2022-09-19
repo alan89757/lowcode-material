@@ -1,7 +1,7 @@
 {
-  "name": "lowcode-material",
-  "version": "0.1.0",
-  "description": "lowcode-material",
+  "name": "lowcode-material-example",
+  "version": "1.1.0",
+  "description": "低代码物料",
   "files": [
     "demo/",
     "es/",
@@ -58,8 +58,9 @@
   "componentConfig": {
     "name": "ExampleComponent",
     "title": "demo component",
-    "category": "Information"
+    "category": "Information",
+    "materialSchema": "https://unpkg.com/lowcode-material-example@1.1.0/build/lowcode/assets-prod.json"
   },
-  
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://unpkg.com/lowcode-material-example@1.1.0/build/index.html"
 }
